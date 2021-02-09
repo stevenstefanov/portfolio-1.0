@@ -1,12 +1,12 @@
 body {
-    background-color: #ecece1ea;
+    background-color: #eeeee3;
 }
 
 header {
     padding: 20px;
     font-family: 'Helvetica Neue', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #242424;
-    color: #ffffffee;
+    color: #eeeee3;
 }
 
 header h1 {
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 a {
-    color: #ffffff;
+    color: #eeeee3;
     text-decoration: none;
 }
 
