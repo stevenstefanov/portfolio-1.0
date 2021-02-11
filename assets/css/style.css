@@ -30,6 +30,10 @@ header nav ul li {
 header a:hover {
     cursor: default;
     text-decoration: underline;
+    background-color: #eeeee3;
+    color: #242424;
+    transition-duration: 0.7s;
+    border: hidden;
 }
 
 a {
@@ -46,8 +50,27 @@ a {
     background-position: center;
 }
 
+.subhead {
+    background-color: #242424;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 300px;
+    right: 40px;
+    color: #eeeee3;
+    display: inline-block;
+    font-size: 48px;
+    border: floralwhite 3px dashed;
+}
+
+.subhead h1 {
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
 h2 {
-    margin-bottom: 10px;
+    margin-top: 30px;
     font-size: 30px;
     text-align: center;
     color: #202629;
@@ -56,10 +79,17 @@ h2 {
     text-decoration: underline;
 }
 
+.section img {
+    margin: 10px 10px 10px 60px;
+    align-self: center;
+    max-height: 230px;
+    border: solid 4px #202629;
+}
 
 main {
     display: inline-block;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .section {
@@ -72,11 +102,123 @@ main {
     font-size: 18px;
 }
 
+#work {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    padding: 20px 40px;
+}
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+.work-section {
+    flex: 5;
+    padding: 25px 15px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* margin: 1% 6%; */
+}
+
+.project {
+    position: relative;
+}
+
+.project-info {
+    color: #26292b;
+    background: var(--header-secondary);
+    position: absolute;
+    bottom: 15%;
+    padding: 1% 5% 1% 1.5%;
+    z-index: 1;
+}
+
+.project-box {
+    max-width: 100%;
+    height: 220px;
+    background: linear-gradient(to bottom right, rgb(107, 90, 55), rgba(110, 110, 78, 0.5));
+    border: solid 5px var(--header-secondary);
+    margin: 5px 0;
+}
+
+.project:hover {
+    opacity: .75;
+    transition-duration: .5s;
+    cursor: default;
+}
+
+.project-name{
+    font-size: 1.5em;
+}
+
+.project-text{
+    font-size: .8em;
+    padding: 10% 0 0 0;
+    font-weight: 200;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+    #work {
+        flex-direction: row;
+    }
+
+    .work-section {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 4px;
+        grid-column-gap: 4px;
+    }
+
+    .project-box {
+        margin: 0;
+    }
+
+    #top-project {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        justify-self: stretch;
+    }
+
+}
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
 .info {
     padding: 30px;
     margin-left: 30px;
     float: right;
     width: 100%;
+    align-self: center;
 }
 
 .section li {
