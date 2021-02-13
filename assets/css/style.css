@@ -178,8 +178,10 @@ main {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Helvetica Neue', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     text-align: center;
+    background-color: #242424;
+    color: #eeeeea;
 }
 
 footer h4 {
