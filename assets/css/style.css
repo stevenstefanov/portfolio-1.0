@@ -1,3 +1,4 @@
+/* When nav images are clicked, the page will scroll rather than jump. */
 html {
     scroll-behavior: smooth;
 }
@@ -13,6 +14,7 @@ header {
     color: #eeeeea;
 }
 
+/* Set the head text and menu to be on one row. */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -26,11 +28,13 @@ header nav {
     font-size: 20px;
 }
 
+/* Set the nav links to be on one row. */
 header nav ul li {
     display:inline-block;
     margin-left: 25px;
 }
 
+/* Lets the mouse remain default whenether it hovers over the nav menu bar for aesthetics. */
 header a:hover {
     cursor: default;
     text-decoration: underline;
@@ -54,6 +58,7 @@ a {
     background-position: center;
 }
 
+/* Positioning the subhead in accordance to other header items. */
 .subhead {
     background-color: #242424;
     width: 300px;
@@ -104,12 +109,14 @@ main {
     font-size: 18px;
 }
 
+/* Sets the section title to the side of each section content. */
 #work {
     display: flex;
     flex-direction: row;
     padding: 20px 40px;
 }
 
+/* Positioning and padding for the projects. */
 .work-section {
     margin: 0;
     padding: 25px 15px;
@@ -145,6 +152,7 @@ main {
     grid-column-end: 3;
 }
 
+/* Changes the opacity of the fields when hovered over. */
 .project:hover {
     opacity: .8;
     transition-duration: .5s;
@@ -165,10 +173,11 @@ main {
     width: 100%;
 }
 
+/* Makes sure the contact links are on one row */
 .section li {
-        display:inline-block;
-        margin-left: 25px;
-        text-decoration: underline;
+    display:inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
 }
 
 .section a {
@@ -188,7 +197,7 @@ footer h4 {
     font-size: 20px;
 }
 
-
+/* Responsive actions when display passes below 900px */
 @media screen and (max-width: 900px) {
 
     header {
@@ -210,7 +219,6 @@ footer h4 {
         top: 280px;
         right: 40px;
         font-size: 40px;
-
     }
 
     .subhead h1 {
@@ -268,6 +276,7 @@ footer h4 {
 
 }
 
+/* Responsive actions when display passes below 960px */
 @media screen and (max-width: 600px) {
 
     header h1{
