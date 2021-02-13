@@ -8,7 +8,7 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Helvetica Neue', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #242424;
     color: #eeeeea;
 }
@@ -22,7 +22,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Helvetica Neue', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -38,7 +38,6 @@ header a:hover {
     color: #242424;
     transition-duration: 0.7s;
     padding: 2px 4px;
-    border: hidden;
 }
 
 a {
@@ -100,7 +99,7 @@ main {
     margin-bottom: 20px;
     padding: 40px;
     min-height: 300px;
-    font-family: 'Helvetica Neue', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #4a5f6bde;
     font-size: 18px;
 }
@@ -128,9 +127,9 @@ main {
     color: #eeeeea;
     background: #242424;
     position: absolute;
-    bottom: 15%;
-    padding: 1% 5% 1% 1.5%;
     z-index: 1;
+    bottom: 15%;
+    padding: 1% 5% 1% 2%;
 }
 
 .project-box {
@@ -144,31 +143,26 @@ main {
 #top-project {
     grid-column-start: 1;
     grid-column-end: 3;
-    justify-self: stretch;
 }
 
 .project:hover {
-    opacity: .75;
+    opacity: .8;
     transition-duration: .5s;
-    cursor: default;
 }
 
 .project-name{
-    font-size: 1.5em;
+    font-size: 30px;
 }
 
 .project-text{
-    font-size: .8em;
-    padding: 10% 0 0 0;
-    font-weight: 200;
+    font-size: 15px;
+    padding: 10% 0 1% 0;
 }
 
 .info {
     padding: 30px;
     margin-left: 30px;
-    float: right;
     width: 100%;
-    align-self: center;
 }
 
 .section li {
@@ -264,6 +258,10 @@ footer h4 {
     #contact {
         flex-direction: column;
         align-items: center;
+    }
+
+    .section li {
+        margin-left: 0;
     }
 
 }
