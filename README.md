@@ -1,24 +1,8 @@
 # Personal-Portfolio
 
-## What is the project?
+## Project Description
 
 This project is a one page person portfolio. It is intended to showcase my personal work achievements and inform potential recruiters and employers of my technical skills.
-
-## What were the challenges?
-
-For me personally, the CSS flexbox code was the most difficult. Getting the different fields to arrange in a way where they look good in both desktop and mobile versions was pretty challenging.
-
-## Why did I decide to do this project?
-
-My goal at the end of this bootcamp is to get a position as a junior software developer. This project will help me set up the foundation for my portfolio. As the course progresses and my knowledge is expanding, I would like ot build upon this portfolio and add my actual projects to be displayed there.
-
-## What I learned in the process?
-
-Through this project, I got a lot more comfortable with CSS styling. I learned a lot about hover actions, positioning, color styling and much more.
-
-## What makes this project stand out?
-
-This project is unique to my personal style and will be used to show my personal work projects.
 
 ## Project Screenshot  
 
@@ -28,9 +12,17 @@ This project is unique to my personal style and will be used to show my personal
 
 https://stevenstefanov.github.io/Personal-Portfolio/
 
-## Instalation
+## Background
 
-No instalation required on this project. Simply run as a normal website.
+My goal at the end of this bootcamp is to get a position as a junior software developer. This project will help me set up the foundation for my portfolio. As the course progresses and my knowledge is expanding, I would like ot build upon this portfolio and add my actual projects to be displayed there.
+
+## Challenges
+
+For me personally, the CSS flexbox code was the most difficult. Getting the different fields to arrange in a way where they look good in both desktop and mobile versions was pretty challenging.
+
+## Learnings
+
+Through this project, I got a lot more comfortable with CSS styling. I learned a lot about hover actions, positioning, color styling and much more.
 
 ## Usage
 
