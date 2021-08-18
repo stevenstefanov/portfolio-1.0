@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a one page person portfolio. It is intended to showcase my personal work achievements and inform potential recruiters and employers of my technical skills.
+This project is a one page personal portfolio. It is intended to showcase my personal work achievements and inform potential recruiters and employers of my technical skills.
 
 ## Project Screenshot  
 
@@ -14,7 +14,7 @@ https://stevenstefanov.github.io/Personal-Portfolio/
 
 ## Background
 
-My goal at the end of this bootcamp is to get a position as a junior software developer. This project will help me set up the foundation for my portfolio. As the course progresses and my knowledge is expanding, I would like ot build upon this portfolio and add my actual projects to be displayed there.
+My goal at the end of this bootcamp is to get a position as a junior software developer. This project will help me set up the foundation for my portfolio. As the course progresses and my knowledge is expanding, I would like to build upon this portfolio and add my actual projects to be displayed there.
 
 ## Challenges
 
@@ -30,7 +30,7 @@ This is a single page website. There is a navigation menu on the top with four l
 
 ## Credits
 
-Thank you to Columbia's Full-Stack Web Developer bootcamp for all the assistance and for teaching me all that I have learned. Credit also goes to Google for helping me find any needed resource.
+Thank you to Columbia's Full-Stack Web Developer bootcamp for all the assistance and for teaching me all that I have learned.
 
 ## Licence
 
